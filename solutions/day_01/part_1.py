@@ -17,7 +17,7 @@ def get_last_digit(text: str) -> str:
 if __name__ == "__main__":
     calibration_sum = 0
 
-    for line in read_file_lines("day_1_1.txt"):
+    for line in read_file_lines("day_01_1.txt"):
         first_digit = get_first_digit(line)
 
         last_digit = get_last_digit(line)

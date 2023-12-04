@@ -41,7 +41,7 @@ if __name__ == "__main__":
     existing_cubes = {"red": 12, "green": 13, "blue": 14}
     power_sum = 0
 
-    for line in read_file_lines("day_2.txt"):
+    for line in read_file_lines("day_02.txt"):
         game_number, games = process_line(line)
 
         power = reduce(lambda x, y: x * y, get_minimum_number_of_cubes(games).values())

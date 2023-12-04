@@ -27,7 +27,7 @@ def get_numbers(text: str) -> list[str]:
 if __name__ == "__main__":
     calibration_sum = 0
 
-    for line in read_file_lines("day_1_2.txt"):
+    for line in read_file_lines("day_01_2.txt"):
         numbers = get_numbers(line)
 
         calibration_value = int(numbers[0] + numbers[-1])

@@ -44,7 +44,7 @@ if __name__ == "__main__":
     existing_balls = {"red": 12, "green": 13, "blue": 14}
     ids_sum = 0
 
-    for line in read_file_lines("day_2.txt"):
+    for line in read_file_lines("day_02.txt"):
         game_number, games = process_line(line)
 
         if check_possible_game(games, existing_balls):
